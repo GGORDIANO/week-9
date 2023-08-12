@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+
+
+<!-- Navigation Bar (Navbar) -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <!-- Brand link with the text "Project Portfolio" -->
+    <a class="navbar-brand" href="index.html">Project Portfolio</a>
+
+
+    <!-- Navbar toggler button for responsive behavior -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- Icon for the collapsed navbar -->
+        <span class="navbar-toggler-icon"></span> <!-- will make the three dots when collapsed-->
+    </button>
+
+
+    <!-- Navbar items and dropdown menu -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <!-- First menu item (Demo) -->
+            <li class="nav-item active">
+                <a class="nav-link" href="demo.html">Demo</a>
+            </li>
+            <!-- Second menu item (About) -->
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <!-- Third menu item (Request Info) -->
+            <li class="nav-item">
+                <a class="nav-link" href="request.html">Request Info</a>
+            </li>
+            <!-- Dropdown menu with three items -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Item One</a>
+                    <a class="dropdown-item" href="#">Item Two</a>
+                    <a class="dropdown-item" href="#">Item Three</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- JavaScript libraries for enhancing functionality -->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
+
